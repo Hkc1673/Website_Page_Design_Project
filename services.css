@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color:#35424A;
+    border-bottom: 3px solid rgb(169,80,139);
+    color: white;
+} 
+
+.left span {
+    font-size: 30px;
+    font-weight: 600;
+}
+.right  {
+    width: 50vh;
+
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.navbar ul li {
+    display: flex;
+    text-transform: uppercase;
+    font-weight: 550;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.home:hover {
+    color: white !important;
+    font-size: 15px;
+}
+
+.about:hover {
+    font-size: 17px;
+}
+
+.services:hover {
+    font-size: 15px;
+
+}
+
+#changecolor{
+    color: rgb(169,80,139) ;
+}
+
+.navbar ul li .services {
+    color:rgb(169,80,139);
+}
+
+
+.subscribe {
+    display: flex;
+    width: 100%;
+    height: 11vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #35424A;
+
+}
+.subscribe h2 {
+    color: white;
+}
+
+.subscribe input {
+    height: 30px;
+    width: 250px;
+}
+
+.subscribe button {
+    height: 36px;
+    width: 100px;
+    background-color: rgb(169,80,139) ;
+    color: white;
+    border: none;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    background-color:  #F4F4F4;
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+
+}
+
+.left {
+    width: 45%;
+    margin-left: 50px;
+
+}
+
+.leftp {
+    background-color: rgb(230,230,230);
+    padding: 10px;
+    margin-top: 5px;
+    
+}
+
+.getaquote {
+    
+    background-color: #35424A; 
+    color: white;
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+    width: 85%;
+}
+.form input {
+    height: 30px;
+}
+.form button {
+    width: 90px;
+    height: 40px;
+    background-color: rgb(169,80,139);
+    color: white;
+}
+
+.form p {
+    font-size: 14px;
+}
+
+.form textarea {
+    margin-bottom: 10px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(255,250,240) ;
+    border-top: 3px solid  rgb(169,80,139);
+ 
+}
+footer img {
+    min-width: 12%;
+    cursor: pointer;
+   
+}
+
+footer img:hover {
+    width: 24vh;
+}
+
+footer p {
+    margin: 0;
+    padding: 20px;
+    font-size: 15px;
+}
+
+@media only screen and (max-width:768px){
+
+    body {
+        flex-direction: column;
+    
+    }
+    .navbar {
+        flex-wrap: wrap;
+        font-size: 0.8em;
+    }
+    .subscribe {
+        flex-wrap: wrap;
+        height: 22vh;
+        font-size: 0.8em;
+    }
+
+    section {
+        flex-wrap: wrap;
+       
+    }
+    .left {
+        width: 80%;
+        font-size: 0.8em;
+        margin-right: 10px;
+    }
+
+    .getaquote {
+    
+        width: 70%;
+        font-size: 0.8em;
+        margin-top: 10px;
+        margin-left: 55px;
+    }
+    
+
+    footer p{
+        font-size: 12px;
+    }
+}
