@@ -186,6 +186,8 @@ footer p {
         flex-direction: column;
     
     }
+
+    
     .navbar {
         flex-wrap: wrap;
         font-size: 0.8em;
@@ -198,12 +200,14 @@ footer p {
 
     section {
         flex-wrap: wrap;
+        margin-right: 10px;
        
     }
     .left {
         width: 80%;
         font-size: 0.8em;
         margin-right: 10px;
+        text-align: center;
     }
 
     .getaquote {

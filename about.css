@@ -173,6 +173,9 @@ footer p {
     section {
         flex-wrap: wrap;
         font-size: 0.8em;
+        height: 82vh;
+    
+    
     }
 
     .aboutus {
@@ -180,7 +183,7 @@ footer p {
     }
     .whatwedo {
        width: 100%;
-    margin: 0 20px;
+        margin: 0 20px;
         padding: 10px;
     }
 
